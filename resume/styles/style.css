@@ -1,0 +1,246 @@
+body{
+    margin:0px auto;
+    width:100%;
+}
+nav ul li {
+    list-style-type:none;
+    float:left;
+    padding-right: 2.5em; /* px,pt,em,%,cm */
+    color:#ffdcb4;
+    
+}
+nav ul{
+    float:right;
+    
+}
+nav{
+    height:50px;
+    width:100%;
+    background-color: #6a097d;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffdcb4;
+}
+section{
+    background-color: #c060a1;
+}
+.home{
+    background-color: #5c2a9d;
+    font-size: 32px;
+    color:#ffdcb4;
+   
+    display: table;
+    height: 100vh;
+    width:100%;
+}
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+  width: 600px;
+  border-radius: 100%;
+}
+.home .inner h1{
+    font-family: 'Grandstander', cursive;
+    font-weight: 500;   
+}
+.about{
+    background-image: url("https://www.valuecoders.com/blog/wp-content/uploads/2018/10/how-python-is-best-fit-for-artificial-intelligence-in-web-development-1.jpg");
+    display: table;   
+    color: aqua;
+    height:  100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.about .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    padding-top: 75px;
+    padding-left: 50px;
+}
+.about .inner h1{
+    font-family: 'Itim', cursive;
+    font-size: 48px;
+    
+}
+.about .inner p{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 28px;
+}
+.education{
+    background-image: url("https://communityimpact.com/uploads/images/2020/07/27/69855.jpeg");
+    background-color: #fff;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.education .inner{
+    padding: 50px;
+     color: #fffd;
+}
+.education h1, .skills h1, .contact h1, .hobbies h1{
+    font-family: 'Concert One', cursive;
+    font-size: 42px;
+}
+.education .inner div, .skills .inner div{
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+}
+.education .inner div h3, .skills .inner div, .contact .inner div p{
+    font-size: 26px;
+}
+.education .inner div img, .hobbies .inner div img{
+    width: 300px;
+    height: auto;
+}
+.skills{
+    background-image: url("https://cdn.acodez.in/wp-content/uploads/2018/06/Banner-image.png");
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.skills .inner{
+    display: table-cell;
+    padding: 50px;
+    color: #fffd;
+}
+.skills h2{
+    font-size: 30px;
+}
+.skills .inner{
+    background-color: rgba(0,0,0,0.8);
+    padding: 50px;
+}
+.skills .inner div ul li {
+    list-style-type:none;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+#certifications{
+    background-color: #f3bcbc;
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+#certifications .inner{
+    display: table-cell;
+    padding: 50px;
+    color: rgba(12, 1, 1, 0.867);
+}
+.certifications .inner h2{
+    font-family: 'Concert One', cursive;
+    font-size: 42px;
+}
+#certifications {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#certifications td {
+  border: 1px solid rgb(15, 1, 1);
+  padding: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center; 
+}
+
+#certifications th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  
+}
+.hobbies{
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.hobbies .inner{
+    display: table-cell;
+    padding: 50px;
+}
+.hobbies .inner div{
+    display: table-cell;
+    padding: 80px;
+}
+
+
+.hobbies .inner div p{
+    font-size: 26px;
+    text-align: center;
+}
+
+.contact{
+    background-image: url("https://www.troax.com/sites/default/files/styles/header_image_desktop_/public/2019-08/Contact_header_2880x1000px.jpg?itok=9hgrfHuH");
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.contact .inner{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: inherit;
+}
+
+.fa:hover {
+    opacity: 1;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Linkdin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+    
